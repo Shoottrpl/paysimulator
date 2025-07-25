@@ -1,0 +1,14 @@
+alembic==1.15.2
+passlib==1.7.4
+pydantic==2.11.2
+pydantic-settings==2.8.1
+email-validator==2.1.0
+PyJWT==2.10.1
+sanic==25.3.0
+sanic-ext==24.12.0
+sentry-sdk==2.30.0
+SQLAlchemy==2.0.40
+asyncpg==0.30.0
+cryptography==42.0.5
+aiohttp==3.9.5
+

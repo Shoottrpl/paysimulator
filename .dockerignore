@@ -1,0 +1,39 @@
+# Исключить git-репозиторий
+.git
+.gitignore
+
+# Исключить IDE/редактор
+.idea
+.vscode
+
+# Исключить логи
+logs
+*.log
+
+# Исключить тестовые и временные файлы
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Исключить виртуальные окружения
+venv
+.venv
+ENV
+env
+env.bak
+venv.bak
+
+# Исключить миграции кэша
+migrations/versions/*.pyc
+
+# Исключить приватные ключи и секреты
+app/keys/
+.env
+.env.*
+
+# Docker-артефакты
+Dockerfile
+docker-compose.yml
