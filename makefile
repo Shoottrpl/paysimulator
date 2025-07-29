@@ -1,8 +1,14 @@
 migrate:
+	alembic upgrade head
+
+makemigrations:
 	DB_HOST=$(host) alembic revision --autogenerate -m "$(m)"
 
-migrate-local:
+
+makemigrations-local:
 	HOST=localhost alembic revision --autogenerate -m "$(m)"
 
-migrate-docker:
+makemigrations-docker:
 	HOST=postgres alembic revision --autogenerate -m "$(m)"
+
+
